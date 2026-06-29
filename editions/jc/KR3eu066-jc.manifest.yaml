@@ -1,0 +1,44 @@
+canonical_identifier: bkk:krp/KR3eu066/jc/v1
+canonical_location: https://kanripo.org/bkk/KR3eu066/jc/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 古方分量考
+  identifiers:
+    krp: KR3eu066
+  tags:
+    kr-categories: KR3eu
+    tls-dates: dat04210
+  source:
+    repository: tls-texts
+    path: data/tls/KR3eu066.xml
+  edition:
+    short: jc
+assets:
+  parts:
+  - {seq: 0, filename: KR3eu066_000-jc.yaml, hash: 'sha256:7e4e6323e03d1f1cfe30734bc9d487f9fb3bcc2953c0ae43b6307116a4b0355c'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR3eu066_000-jc.markers.yaml, hash: 'sha256:25cde39049cf5495e05813697355b6b36ce08eea8ea13106c60a2bfea2f65adb'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR3eu066_jc_000-d2.h1s1
+    span:
+    - body
+    - 0
+    - 262
+  label: 凡例
+  type: section
+  level: 1
+- ref:
+    seq: 0
+    marker_id: KR3eu066_jc_000-d3.h1s1
+    span:
+    - body
+    - 262
+    - 10362
+  label: 正文
+  type: section
+  level: 1
+hash: sha256:ed1a2e11a8a81ce1a25a4342870c6c360deb402f39b099d583cf5d5bd0a9dfd4

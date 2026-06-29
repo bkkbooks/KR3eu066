@@ -1,0 +1,47 @@
+canonical_identifier: bkk:krp/KR3eu066/v1
+canonical_location: https://kanripo.org/bkk/KR3eu066/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 古方分量考
+  identifiers:
+    krp: KR3eu066
+  tags:
+    kr-categories: KR3eu
+    tls-dates: dat04210
+  source:
+    repository: tls-texts
+    path: data/tls/KR3eu066.xml
+  edition:
+    short: bkk
+assets:
+  parts:
+  - {seq: 0, filename: KR3eu066_000.yaml, hash: 'sha256:7680fc73c603925c169587a7029b7f443ffb6573914b9f4d8ecf07fc85f1aa1b'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR3eu066_000.markers.yaml, hash: 'sha256:6c82f2333b1adb48f2ed7446eb0a728c38d03c591febae43a165e3c4d3efb672'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR3eu066_jc_000-d2.h1s1
+    span:
+    - body
+    - 0
+    - 262
+  label: 凡例
+  type: section
+  level: 1
+- ref:
+    seq: 0
+    marker_id: KR3eu066_jc_000-d3.h1s1
+    span:
+    - body
+    - 262
+    - 10362
+  label: 正文
+  type: section
+  level: 1
+hash: sha256:a2700170f141186c51a28010b8b166b3364ef8f8c2f6616aa74c7f11b8867052
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
